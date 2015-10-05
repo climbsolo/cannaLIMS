@@ -1,0 +1,7 @@
+.com_bumpup_registration_widget_parent_div {
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-image: url("bg_image.png");
+}

@@ -1,0 +1,25 @@
+
+
+<pre>
+<div id="demo"></div>
+</pre>
+
+<script>
+
+var cars = {type:"Fiat", model:500, color:"white", arr: {type:"Fiat", model:500, color:"white"}};
+
+var text = "";
+
+
+for(var index in cars) { 
+    var type = cars[type];
+    var model = cars[model];
+    var color = cars[color];
+    }
+
+
+
+document.getElementById("demo").innerHTML = JSON.stringify(cars);
+
+
+</script>

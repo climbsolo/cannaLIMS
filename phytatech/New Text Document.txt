@@ -1,0 +1,44 @@
+<?php 
+
+include "includes.php";
+
+//logincheck();
+
+
+$json = $_GET["json"];
+$tablename = $_GET["tablename"];
+
+$arr = array();
+
+$arr = json_decode($json);
+
+if ($arr[0] == "all") {
+    
+    $sql = "select * from $tablename order by 1 desc";
+    
+    // For tables with an "active" column
+    if ($tablename == "tblsamples" || $tablename == "tblclients") {
+        $sql = "select * from $tablename where (active is null or active = '' or active <> 'false')";
+    }
+    
+    mkdir ('downloads');
+    mkdir ($_SESSION["luid"]);
+    
+    $stmt = $dbconn->prepare($sql);
+    $stmt->execute();
+    $array = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+  
+    print_r($array);
+    
+    foreach ($array as $row) {
+       
+       fputcsv($row, 'downloads/' . $_SESSION["luid"] . '/export.csv');
+    }
+
+ fclose('downloads/' . $_SESSION["luid"] . '/export.csv');
+                
+                
+}
+
+?>

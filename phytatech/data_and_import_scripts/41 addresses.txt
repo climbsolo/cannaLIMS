@@ -1,0 +1,41 @@
+811 City View Dr::Denver;CO;80229
+1800 Boulder St::Denver;CO;80211
+5601 Logan St::Denver;CO;80216
+44 Cook St::Denver;CO;80206
+3030 Huron St::Denver;CO;80202
+451 E 58th Ave::Denver;CO;80216
+6407 E Colfax Ave::Denver;CO;80220
+81 W Alameda Ave::Denver;CO;80223
+2601 Valentia St::Denver;CO;80238
+575 E 49th Ave::Denver;CO;80216
+6624 E Colfax Ave::Denver;CO;80220
+4747 National Western Dr::Denver;CO;80216
+6005 E Evans Ave::Denver;CO;80222
+1070 Milwaukee St::Denver;CO;80206
+218 Santa Fe Dr::Denver;CO;80223
+5995 E Evans Ave::Denver;CO;80222
+2376 S Linden Ct::Denver;CO;80222
+3467 W Walsh Pl::Denver;CO;80219
+784 S Logan St::Denver;CO;80209
+225 E 16th Ave::Denver;CO;80203
+6697 Federal Blvd::Denver;CO;80221
+1970 W Pacific Pl::Denver;CO;80223
+6697 Federal Blvd::Denver;CO;80221
+1115 W 10th Ave::Denver;CO;80204
+6435 E Evans Ave::Denver;CO;80222
+9725 E Hampden Ave::Denver;CO;80231
+5030 Acoma St::Denver;CO;80216
+6000 E Evans Ave::Denver;CO;80222
+2150 S Downing St::Denver;CO 80210
+950 E Harvard Ave::Denver;CO 80210
+3773 E Cherry Creek North Dr::Denver;CO;80209
+5770 Clarkson St::Denver;CO;80216
+6795 E Tennessee Ave::Denver;CO;80224
+3770 E 40th Ave::Denver;CO;80205
+6000 E Evans Ave::Denver;CO;80222
+1355 Locust St::Denver;CO;80220
+4110 Fox St::Denver;CO;80216
+2896 Fairfax St::Denver;CO;80207
+2180 W 60th Ave::Denver;CO;80221
+3773 E Cherry Creek North Dr::Denver;CO;80209
+3900 N York St::Denver;CO;80205
