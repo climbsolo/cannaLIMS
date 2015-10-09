@@ -343,7 +343,7 @@ if ($qtype == "updatesample") {
         $manifest_id = $arr->manifest_id;
         $rush_order = $arr->rush_order;
         
-        for ($x = 0; $x <= $sample_count; $x++) {         
+        for ($x = 2; $x <= $sample_count; $x++) {         
             
             $sql = "insert into tblsamples (client_id, license_number, date_accepted, ndate_accepted, manifest_id, rush_order) values (:client_id, :license_number, :date_accepted, :ndate_accepted, :manifest_id, :rush_order)";            
             $stmt = $dbconn->prepare($sql);

@@ -261,6 +261,10 @@ if (isset($_GET["sampleid"])) {
                 <input type="checkbox" id="managesample_heavy_metals_checkbox" value="Heavy Metals" class="sampledatatests"><label for="managesample_heavy_metals_checkbox" style="margin-left:1em;font-weight:normal;">Heavy Metals</label></input>
                 <br />
                 <input type="checkbox" id="managesample_pesticides_checkbox" value="Pesticides" class="sampledatatests"><label for="managesample_pesticides_checkbox" style="margin-left:1em;font-weight:normal;">Pesticides</label></input>
+                <br />
+                <input type="checkbox" id="managesample_potterp_checkbox" value="Potency/Terpenes" class="sampledatatests"><label for="managesample_potterp_checkbox" style="margin-left:1em;font-weight:normal;">Potency/Terpenes</label></input>
+                <br />
+                <input type="checkbox" id="managesample_rush_checkbox" value="Rush Order" class="sampledatatests"><label for="managesample_rush_checkbox" style="margin-left:1em;font-weight:normal;">Rush Order</label></input>
                 </div>
             </fieldset>
         </div>
